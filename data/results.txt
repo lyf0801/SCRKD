@@ -1,0 +1,365 @@
+#Table II
+ORSSD (PSPNet_112x112): 0.0149 mae || 0.8687 max-fm || 0.8944 S-measure.
+EORSSD (PSPNet_112x112): 0.0098 mae || 0.8284 max-fm || 0.8796 S-measure.
+ORS_4199 (PSPNet_112x112): 0.0367 mae || 0.8368 max-fm || 0.8561 S-measure.
+
+ORSSD (PSPNet_224x224): 0.0119 mae || 0.8981 max-fm || 0.9146 S-measure.
+EORSSD (PSPNet_224x224): 0.0077 mae || 0.8796 max-fm || 0.9135 S-measure.
+ORS_4199 (PSPNet_224x224): 0.0344 mae || 0.8538 max-fm || 0.8676 S-measure.
+
+ORSSD (PSPNet_448x448): 0.0104 mae || 0.9251 max-fm || 0.9309 S-measure.
+EORSSD (PSPNet_448x448): 0.0071 mae || 0.9030 max-fm || 0.9301 S-measure.
+ORS_4199 (PSPNet_448x448): 0.0350 mae || 0.8465 max-fm || 0.8689 S-measure.
+
+ORSSD (PSPNet_112x112_KD): 0.0144 mae || 0.8755 max-fm || 0.9003 S-measure.
+EORSSD (PSPNet_112x112_KD): 0.0098 mae || 0.8323 max-fm || 0.8842 S-measure.
+ORS_4199 (PSPNet_112x112_KD): 0.0351 mae || 0.8393 max-fm || 0.8611 S-measure.
+
+ORSSD (PSPNet_112x112_FitNet): 0.0146 mae || 0.8787 max-fm || 0.9010 S-measure.
+EORSSD (PSPNet_112x112_FitNet): 0.0090 mae || 0.8398 max-fm || 0.8890 S-measure.
+ORS_4199 (PSPNet_112x112_FitNet): 0.0346 mae || 0.8403 max-fm || 0.8623 S-measure.
+
+ORSSD (PSPNet_112x112_AT): 0.0129 mae || 0.8851 max-fm || 0.9096 S-measure.
+EORSSD (PSPNet_112x112_AT): 0.0091 mae || 0.8428 max-fm || 0.8908 S-measure.
+ORS_4199 (PSPNet_112x112_AT): 0.0345 mae || 0.8424 max-fm || 0.8639 S-measure.
+
+ORSSD (PSPNet_112x112_IFVD): 0.0148 mae || 0.8755 max-fm || 0.8997 S-measure.
+EORSSD (PSPNet_112x112_IFVD): 0.0092 mae || 0.8356 max-fm || 0.8839 S-measure.
+ORS_4199 (PSPNet_112x112_IFVD): 0.0358 mae || 0.8387 max-fm || 0.8587 S-measure.
+
+ORSSD (PSPNet_112x112_CWD): 0.0138 mae || 0.8788 max-fm || 0.9039 S-measure.
+EORSSD (PSPNet_112x112_CWD): 0.0091 mae || 0.8395 max-fm || 0.8870 S-measure.
+ORS_4199 (PSPNet_112x112_CWD): 0.0356 mae || 0.8399 max-fm || 0.8597 S-measure.
+
+ORSSD (PSPNet_112x112_ReviewKD): 0.0132 mae || 0.8860 max-fm || 0.9070 S-measure.
+EORSSD (PSPNet_112x112_ReviewKD): 0.0089 mae || 0.8429 max-fm || 0.8929 S-measure.
+ORS_4199 (PSPNet_112x112_ReviewKD): 0.0346 mae || 0.8447 max-fm || 0.8638 S-measure.
+
+ORSSD (PSPNet_112x112_SKD): 0.0140 mae || 0.8760 max-fm || 0.8987 S-measure.
+EORSSD (PSPNet_112x112_SKD): 0.0094 mae || 0.8391 max-fm || 0.8865 S-measure.
+ORS_4199 (PSPNet_112x112_SKD): 0.0354 mae || 0.8389 max-fm || 0.8569 S-measure.
+
+ORSSD (PSPNet_112x112_SRD): 0.0150 mae || 0.8764 max-fm || 0.8995 S-measure.
+EORSSD (PSPNet_112x112_SRD): 0.0095 mae || 0.8388 max-fm || 0.8864 S-measure.
+ORS_4199 (PSPNet_112x112_SRD): 0.0358 mae || 0.8376 max-fm || 0.8588 S-measure.
+
+ORSSD (PSPNet_112x112_LogitStdKD): 0.0140 mae || 0.8732 max-fm || 0.8999 S-measure.
+EORSSD (PSPNet_112x112_LogitStdKD): 0.0100 mae || 0.8329 max-fm || 0.8815 S-measure.
+ORS_4199 (PSPNet_112x112_LogitStdKD): 0.0354 mae || 0.8422 max-fm || 0.8626 S-measure.
+
+ORSSD (PSPNet_112x112_FAMKD): 0.0141 mae || 0.8745 max-fm || 0.8996 S-measure.
+EORSSD (PSPNet_112x112_FAMKD): 0.0089 mae || 0.8415 max-fm || 0.8898 S-measure.
+ORS_4199 (PSPNet_112x112_FAMKD): 0.0346 mae || 0.8436 max-fm || 0.8629 S-measure.
+
+ORSSD (PSPNet_112x112_STONet): 0.0131 mae || 0.8802 max-fm || 0.9053 S-measure.
+EORSSD (PSPNet_112x112_STONet): 0.0095 mae || 0.8414 max-fm || 0.8878 S-measure.
+ORS_4199 (PSPNet_112x112_STONet): 0.0332 mae || 0.8421 max-fm || 0.8646 S-measure.
+
+ORSSD (PSPNet_PD_224to112): 0.0130 mae || 0.8817 max-fm || 0.9045 S-measure.
+EORSSD (PSPNet_PD_224to112): 0.0097 mae || 0.8367 max-fm || 0.8844 S-measure.
+ORS_4199 (PSPNet_PD_224to112): 0.0348 mae || 0.8407 max-fm || 0.8606 S-measure.
+
+ORSSD (PSPNet_CMHRD_224to112): 0.0141 mae || 0.8844 max-fm || 0.9040 S-measure.
+EORSSD (PSPNet_CMHRD_224to112): 0.0092 mae || 0.8368 max-fm || 0.8859 S-measure.
+ORS_4199 (PSPNet_CMHRD_224to112): 0.0354 mae || 0.8405 max-fm || 0.8607 S-measure.
+
+ORSSD (ISAANet_112x112): 0.0139 mae || 0.8804 max-fm || 0.9108 S-measure.
+EORSSD (ISAANet_112x112): 0.0101 mae || 0.8283 max-fm || 0.8861 S-measure.
+ORS_4199 (ISAANet_112x112): 0.0400 mae || 0.8191 max-fm || 0.8495 S-measure.
+
+ORSSD (SOLNet_112x112): 0.0232 mae || 0.8307 max-fm || 0.8718 S-measure.
+EORSSD (SOLNet_112x112): 0.0139 mae || 0.8146 max-fm || 0.8710 S-measure.
+ORS_4199 (SOLNet_112x112): 0.0486 mae || 0.8030 max-fm || 0.8260 S-measure.
+
+ORSSD (PSPNet_112x112_SCRKD5): 0.0124 mae || 0.8917 max-fm || 0.9125 S-measure.
+EORSSD (PSPNet_112x112_SCRKD5): 0.0090 mae || 0.8511 max-fm || 0.8952 S-measure.
+ORS_4199 (PSPNet_112x112_SCRKD5): 0.0341 mae || 0.8494 max-fm || 0.8671 S-measure.
+
+
+
+#Table III
+ORSSD (SegFormer_112x112): 0.0163 mae || 0.8681 max-fm || 0.8995 S-measure.
+EORSSD (SegFormer_112x112): 0.0090 mae || 0.8459 max-fm || 0.8947 S-measure.
+ORS_4199 (SegFormer_112x112): 0.0336 mae || 0.8499 max-fm || 0.8690 S-measure.
+
+ORSSD (SegFormer_224x224): 0.0113 mae || 0.9139 max-fm || 0.9273 S-measure.
+EORSSD (SegFormer_224x224): 0.0070 mae || 0.8917 max-fm || 0.9235 S-measure.
+ORS_4199 (SegFormer_224x224): 0.0307 mae || 0.8635 max-fm || 0.8765 S-measure.
+
+ORSSD (SegFormer_448x448): 0.0106 mae || 0.9218 max-fm || 0.9314 S-measure.
+EORSSD (SegFormer_448x448): 0.0067 mae || 0.9108 max-fm || 0.9348 S-measure.
+ORS_4199 (SegFormer_448x448): 0.0318 mae || 0.8631 max-fm || 0.8786 S-measure.
+
+ORSSD (SegFormer_112x112_KD): 0.0163 mae || 0.8725 max-fm || 0.9006 S-measure.
+EORSSD (SegFormer_112x112_KD): 0.0086 mae || 0.8526 max-fm || 0.8985 S-measure.
+ORS_4199 (SegFormer_112x112_KD): 0.0314 mae || 0.8540 max-fm || 0.8731 S-measure.
+
+ORSSD (SegFormer_112x112_FitNet): 0.0147 mae || 0.8757 max-fm || 0.9019 S-measure.
+EORSSD (SegFormer_112x112_FitNet): 0.0088 mae || 0.8519 max-fm || 0.8973 S-measure.
+ORS_4199 (SegFormer_112x112_FitNet): 0.0322 mae || 0.8513 max-fm || 0.8714 S-measure.
+
+ORSSD (SegFormer_112x112_AT): 0.0153 mae || 0.8726 max-fm || 0.9005 S-measure.
+EORSSD (SegFormer_112x112_AT): 0.0087 mae || 0.8509 max-fm || 0.8989 S-measure.
+ORS_4199 (SegFormer_112x112_AT): 0.0320 mae || 0.8534 max-fm || 0.8722 S-measure.
+
+ORSSD (SegFormer_112x112_IFVD): 0.0170 mae || 0.8669 max-fm || 0.8986 S-measure.
+EORSSD (SegFormer_112x112_IFVD): 0.0087 mae || 0.8560 max-fm || 0.8991 S-measure.
+ORS_4199 (SegFormer_112x112_IFVD): 0.0314 mae || 0.8528 max-fm || 0.8724 S-measure.
+
+ORSSD (SegFormer_112x112_CWD): 0.0146 mae || 0.8743 max-fm || 0.8999 S-measure.
+EORSSD (SegFormer_112x112_CWD): 0.0085 mae || 0.8539 max-fm || 0.8957 S-measure.
+ORS_4199 (SegFormer_112x112_CWD): 0.0319 mae || 0.8537 max-fm || 0.8732 S-measure.
+
+ORSSD (SegFormer_112x112_ReviewKD): 0.0145 mae || 0.8781 max-fm || 0.9047 S-measure.
+EORSSD (SegFormer_112x112_ReviewKD): 0.0084 mae || 0.8585 max-fm || 0.9015 S-measure.
+ORS_4199 (SegFormer_112x112_ReviewKD): 0.0318 mae || 0.8540 max-fm || 0.8723 S-measure.
+
+ORSSD (SegFormer_112x112_SKD): 0.0162 mae || 0.8691 max-fm || 0.8996 S-measure.
+EORSSD (SegFormer_112x112_SKD): 0.0084 mae || 0.8558 max-fm || 0.8994 S-measure.
+ORS_4199 (SegFormer_112x112_SKD): 0.0324 mae || 0.8492 max-fm || 0.8699 S-measure.
+
+ORSSD (SegFormer_112x112_SRD): 0.0161 mae || 0.8715 max-fm || 0.8967 S-measure.
+EORSSD (SegFormer_112x112_SRD): 0.0088 mae || 0.8535 max-fm || 0.8974 S-measure.
+ORS_4199 (SegFormer_112x112_SRD): 0.0319 mae || 0.8539 max-fm || 0.8718 S-measure.
+
+ORSSD (SegFormer_112x112_LogitStdKD): 0.0148 mae || 0.8746 max-fm || 0.9028 S-measure.
+EORSSD (SegFormer_112x112_LogitStdKD): 0.0088 mae || 0.8518 max-fm || 0.8989 S-measure.
+ORS_4199 (SegFormer_112x112_LogitStdKD): 0.0317 mae || 0.8536 max-fm || 0.8730 S-measure.
+
+ORSSD (SegFormer_112x112_STONet): 0.0164 mae || 0.8710 max-fm || 0.9020 S-measure.
+EORSSD (SegFormer_112x112_STONet): 0.0090 mae || 0.8546 max-fm || 0.9007 S-measure.
+ORS_4199 (SegFormer_112x112_STONet): 0.0332 mae || 0.8511 max-fm || 0.8696 S-measure.
+
+ORSSD (SegFormer_PD_224to112): 0.0166 mae || 0.8711 max-fm || 0.8977 S-measure.
+EORSSD (SegFormer_PD_224to112): 0.0091 mae || 0.8517 max-fm || 0.8972 S-measure.
+ORS_4199 (SegFormer_PD_224to112): 0.0320 mae || 0.8529 max-fm || 0.8722 S-measure.
+
+ORSSD (SegFormer_CMHRD_224to112): 0.0155 mae || 0.8719 max-fm || 0.8987 S-measure.
+EORSSD (SegFormer_CMHRD_224to112): 0.0095 mae || 0.8471 max-fm || 0.8966 S-measure.
+ORS_4199 (SegFormer_CMHRD_224to112): 0.0325 mae || 0.8495 max-fm || 0.8686 S-measure.
+
+ORSSD (SegFormer_112x112_SCRKD5): 0.0141 mae || 0.8883 max-fm || 0.9057 S-measure.
+EORSSD (SegFormer_112x112_SCRKD5): 0.0079 mae || 0.8639 max-fm || 0.9052 S-measure.
+ORS_4199 (SegFormer_112x112_SCRKD5): 0.0310 mae || 0.8576 max-fm || 0.8727 S-measure.
+
+
+
+
+#Table IV
+ORSSD (TransXNet_112x112): 0.0133 mae || 0.8799 max-fm || 0.9099 S-measure.
+EORSSD (TransXNet_112x112): 0.0086 mae || 0.8471 max-fm || 0.8979 S-measure.
+ORS_4199 (TransXNet_112x112): 0.0336 mae || 0.8492 max-fm || 0.8679 S-measure.
+
+ORSSD (TransXNet_224x224): 0.0102 mae || 0.9238 max-fm || 0.9381 S-measure.
+EORSSD (TransXNet_224x224): 0.0064 mae || 0.9001 max-fm || 0.9296 S-measure.
+ORS_4199 (TransXNet_224x224): 0.0293 mae || 0.8716 max-fm || 0.8839 S-measure.
+
+ORSSD (TransXNet_448x448): 0.0086 mae || 0.9297 max-fm || 0.9413 S-measure.
+EORSSD (TransXNet_448x448): 0.0053 mae || 0.9155 max-fm || 0.9408 S-measure.
+ORS_4199 (TransXNet_448x448): 0.0287 mae || 0.8703 max-fm || 0.8852 S-measure.
+
+ORSSD (TransXNet_logits_224to112): 0.0123 mae || 0.8944 max-fm || 0.9192 S-measure.
+EORSSD (TransXNet_logits_224to112): 0.0080 mae || 0.8588 max-fm || 0.9078 S-measure.
+ORS_4199 (TransXNet_logits_224to112): 0.0308 mae || 0.8589 max-fm || 0.8767 S-measure.
+
+ORSSD (TransXNet_FitNet_224to112): 0.0114 mae || 0.8975 max-fm || 0.9232 S-measure.
+EORSSD (TransXNet_FitNet_224to112): 0.0076 mae || 0.8624 max-fm || 0.9107 S-measure.
+ORS_4199 (TransXNet_FitNet_224to112): 0.0309 mae || 0.8586 max-fm || 0.8771 S-measure.
+
+ORSSD (TransXNet_AT_224to112): 0.0114 mae || 0.8993 max-fm || 0.9212 S-measure.
+EORSSD (TransXNet_AT_224to112): 0.0075 mae || 0.8620 max-fm || 0.9100 S-measure.
+ORS_4199 (TransXNet_AT_224to112): 0.0310 mae || 0.8581 max-fm || 0.8763 S-measure.
+
+ORSSD (TransXNet_IFVD_224to112): 0.0118 mae || 0.8953 max-fm || 0.9187 S-measure.
+EORSSD (TransXNet_IFVD_224to112): 0.0080 mae || 0.8601 max-fm || 0.9067 S-measure.
+ORS_4199 (TransXNet_IFVD_224to112): 0.0306 mae || 0.8598 max-fm || 0.8786 S-measure.
+
+ORSSD (TransXNet_CWD_224to112): 0.0121 mae || 0.8984 max-fm || 0.9216 S-measure.
+EORSSD (TransXNet_CWD_224to112): 0.0078 mae || 0.8645 max-fm || 0.9112 S-measure.
+ORS_4199 (TransXNet_CWD_224to112): 0.0298 mae || 0.8600 max-fm || 0.8788 S-measure.
+
+ORSSD (TransXNet_ReviewKD_224to112): 0.0126 mae || 0.8918 max-fm || 0.9181 S-measure.
+EORSSD (TransXNet_ReviewKD_224to112): 0.0077 mae || 0.8652 max-fm || 0.9127 S-measure.
+ORS_4199 (TransXNet_ReviewKD_224to112): 0.0313 mae || 0.8593 max-fm || 0.8766 S-measure.
+
+ORSSD (TransXNet_SKD_224to112): 0.0116 mae || 0.8987 max-fm || 0.9216 S-measure.
+EORSSD (TransXNet_SKD_224to112): 0.0077 mae || 0.8632 max-fm || 0.9086 S-measure.
+ORS_4199 (TransXNet_SKD_224to112): 0.0308 mae || 0.8576 max-fm || 0.8763 S-measure.
+
+ORSSD (TransXNet_SRD_224to112): 0.0117 mae || 0.8941 max-fm || 0.9194 S-measure.
+EORSSD (TransXNet_SRD_224to112): 0.0078 mae || 0.8640 max-fm || 0.9089 S-measure.
+ORS_4199 (TransXNet_SRD_224to112): 0.0314 mae || 0.8594 max-fm || 0.8759 S-measure.
+
+ORSSD (TransXNet_LogitStdKD_224to112): 0.0121 mae || 0.8944 max-fm || 0.9190 S-measure.
+EORSSD (TransXNet_LogitStdKD_224to112): 0.0081 mae || 0.8559 max-fm || 0.9040 S-measure.
+ORS_4199 (TransXNet_LogitStdKD_224to112): 0.0305 mae || 0.8602 max-fm || 0.8778 S-measure.
+
+ORSSD (TransXNet_STONet_224to112): 0.0109 mae || 0.9017 max-fm || 0.9253 S-measure.
+EORSSD (TransXNet_STONet_224to112): 0.0076 mae || 0.8621 max-fm || 0.9086 S-measure.
+ORS_4199 (TransXNet_STONet_224to112): 0.0305 mae || 0.8596 max-fm || 0.8771 S-measure.
+
+ORSSD (TransXNet_PD_224to112): 0.0125 mae || 0.8903 max-fm || 0.9169 S-measure.
+EORSSD (TransXNet_PD_224to112): 0.0076 mae || 0.8625 max-fm || 0.9097 S-measure.
+ORS_4199 (TransXNet_PD_224to112): 0.0305 mae || 0.8597 max-fm || 0.8772 S-measure.
+
+ORSSD (TransXNet_CMHRD_224to112): 0.0115 mae || 0.9021 max-fm || 0.9248 S-measure.
+EORSSD (TransXNet_CMHRD_224to112): 0.0078 mae || 0.8632 max-fm || 0.9087 S-measure.
+ORS_4199 (TransXNet_CMHRD_224to112): 0.0296 mae || 0.8608 max-fm || 0.8793 S-measure.
+
+ORSSD (TransXNet_SCRKD5_224to112): 0.0100 mae || 0.9074 max-fm || 0.9287 S-measure.
+EORSSD (TransXNet_SCRKD5_224to112): 0.0069 mae || 0.8705 max-fm || 0.9162 S-measure.
+ORS_4199 (TransXNet_SCRKD5_224to112): 0.0295 mae || 0.8636 max-fm || 0.8805 S-measure.
+
+
+
+#Table V
+ORSSD (PSPNet_224x224_KD): 0.0105 mae || 0.9104 max-fm || 0.9242 S-measure.
+EORSSD (PSPNet_224x224_KD): 0.0071 mae || 0.8863 max-fm || 0.9191 S-measure.
+
+ORSSD (PSPNet_224x224_FitNet): 0.0109 mae || 0.9125 max-fm || 0.9231 S-measure.
+EORSSD (PSPNet_224x224_FitNet): 0.0069 mae || 0.8858 max-fm || 0.9212 S-measure.
+
+ORSSD (PSPNet_224x224_AT): 0.0100 mae || 0.9148 max-fm || 0.9292 S-measure.
+EORSSD (PSPNet_224x224_AT): 0.0072 mae || 0.8914 max-fm || 0.9211 S-measure.
+
+ORSSD (PSPNet_224x224_IFVD): 0.0125 mae || 0.9053 max-fm || 0.9221 S-measure.
+EORSSD (PSPNet_224x224_IFVD): 0.0072 mae || 0.8853 max-fm || 0.9206 S-measure.
+
+ORSSD (PSPNet_224x224_CWD): 0.0117 mae || 0.9038 max-fm || 0.9229 S-measure.
+EORSSD (PSPNet_224x224_CWD): 0.0071 mae || 0.8914 max-fm || 0.9216 S-measure.
+
+ORSSD (PSPNet_224x224_ReviewKD): 0.0106 mae || 0.9117 max-fm || 0.9240 S-measure.
+EORSSD (PSPNet_224x224_ReviewKD): 0.0075 mae || 0.8888 max-fm || 0.9232 S-measure.
+
+ORSSD (PSPNet_224x224_SKD): 0.0109 mae || 0.9049 max-fm || 0.9189 S-measure.
+EORSSD (PSPNet_224x224_SKD): 0.0071 mae || 0.8840 max-fm || 0.9202 S-measure.
+
+ORSSD (PSPNet_224x224_SRD): 0.0113 mae || 0.9065 max-fm || 0.9161 S-measure.
+EORSSD (PSPNet_224x224_SRD): 0.0076 mae || 0.8847 max-fm || 0.9187 S-measure.
+
+ORSSD (PSPNet_224x224_LogitStdKD): 0.0130 mae || 0.9008 max-fm || 0.9170 S-measure.
+EORSSD (PSPNet_224x224_LogitStdKD): 0.0077 mae || 0.8835 max-fm || 0.9151 S-measure.
+
+ORSSD (PSPNet_224x224_STONet): 0.0127 mae || 0.9091 max-fm || 0.9231 S-measure.
+EORSSD (PSPNet_224x224_STONet): 0.0074 mae || 0.8905 max-fm || 0.9199 S-measure.
+
+ORSSD (PSPNet_PD_448to224): 0.0110 mae || 0.9069 max-fm || 0.9187 S-measure.
+EORSSD (PSPNet_PD_448to224): 0.0074 mae || 0.8873 max-fm || 0.9225 S-measure.
+
+ORSSD (PSPNet_CMHRD_448to224): 0.0110 mae || 0.9063 max-fm || 0.9230 S-measure.
+EORSSD (PSPNet_CMHRD_448to224): 0.0069 mae || 0.8854 max-fm || 0.9200 S-measure.
+
+ORSSD (ISAANet_224x224): 0.0117 mae || 0.9054 max-fm || 0.9247 S-measure.
+EORSSD (ISAANet_224x224): 0.0082 mae || 0.8770 max-fm || 0.9160 S-measure.
+ORS_4199 (ISAANet_224x224): 0.0372 mae || 0.8407 max-fm || 0.8600 S-measure.
+
+
+ORSSD (SOLNet_224x224): 0.0243 mae || 0.8309 max-fm || 0.8755 S-measure.
+EORSSD (SOLNet_224x224): 0.0125 mae || 0.8418 max-fm || 0.8908 S-measure.
+ORS_4199 (SOLNet_224x224): 0.0530 mae || 0.8062 max-fm || 0.8246 S-measure.
+
+ORSSD (PSPNet_224x224_SCRKD5): 0.0096 mae || 0.9185 max-fm || 0.9295 S-measure.
+EORSSD (PSPNet_224x224_SCRKD5): 0.0064 mae || 0.8949 max-fm || 0.9270 S-measure.
+
+
+ORSSD (PSPNet_448to112_KD): 0.0148 mae || 0.8701 max-fm || 0.8951 S-measure.
+EORSSD (PSPNet_448to112_KD): 0.0092 mae || 0.8315 max-fm || 0.8849 S-measure.
+
+ORSSD (PSPNet_448to112_FitNet): 0.0134 mae || 0.8823 max-fm || 0.9021 S-measure.
+EORSSD (PSPNet_448to112_FitNet): 0.0088 mae || 0.8376 max-fm || 0.8887 S-measure.
+
+ORSSD (PSPNet_448to112_AT): 0.0134 mae || 0.8814 max-fm || 0.9008 S-measure.
+EORSSD (PSPNet_448to112_AT): 0.0096 mae || 0.8394 max-fm || 0.8885 S-measure.
+
+ORSSD (PSPNet_448to112_IFVD): 0.0147 mae || 0.8747 max-fm || 0.8983 S-measure.
+EORSSD (PSPNet_448to112_IFVD): 0.0100 mae || 0.8303 max-fm || 0.8818 S-measure.
+
+ORSSD (PSPNet_448to112_CWD): 0.0133 mae || 0.8796 max-fm || 0.9047 S-measure.
+EORSSD (PSPNet_448to112_CWD): 0.0092 mae || 0.8387 max-fm || 0.8891 S-measure.
+
+ORSSD (PSPNet_448to112_ReviewKD): 0.0128 mae || 0.8836 max-fm || 0.9067 S-measure.
+EORSSD (PSPNet_448to112_ReviewKD): 0.0095 mae || 0.8401 max-fm || 0.8874 S-measure.
+
+ORSSD (PSPNet_448to112_SKD): 0.0132 mae || 0.8781 max-fm || 0.9011 S-measure.
+EORSSD (PSPNet_448to112_SKD): 0.0096 mae || 0.8325 max-fm || 0.8837 S-measure.
+
+ORSSD (PSPNet_448to112_SRD): 0.0149 mae || 0.8690 max-fm || 0.8968 S-measure.
+EORSSD (PSPNet_448to112_SRD): 0.0096 mae || 0.8329 max-fm || 0.8842 S-measure.
+
+ORSSD (PSPNet_448to112_LogitStdKD): 0.0138 mae || 0.8793 max-fm || 0.8965 S-measure.
+EORSSD (PSPNet_448to112_LogitStdKD): 0.0089 mae || 0.8355 max-fm || 0.8882 S-measure.
+
+ORSSD (PSPNet_448to112_STONet): 0.0130 mae || 0.8861 max-fm || 0.9038 S-measure.
+EORSSD (PSPNet_448to112_STONet): 0.0092 mae || 0.8378 max-fm || 0.8872 S-measure.
+
+ORSSD (PSPNet_PD_448to112): 0.0137 mae || 0.8829 max-fm || 0.9024 S-measure.
+EORSSD (PSPNet_PD_448to112): 0.0094 mae || 0.8360 max-fm || 0.8847 S-measure.
+
+ORSSD (PSPNet_CMHRD_448to112): 0.0143 mae || 0.8743 max-fm || 0.9007 S-measure.
+EORSSD (PSPNet_CMHRD_448to112): 0.0091 mae || 0.8373 max-fm || 0.8853 S-measure.
+
+ORSSD (PSPNet_448to112_SCRKD5): 0.0119 mae || 0.8882 max-fm || 0.9093 S-measure.
+EORSSD (PSPNet_448to112_SCRKD5): 0.0088 mae || 0.8494 max-fm || 0.8965 S-measure.
+
+ORSSD (PSPNet_448to112_Cascaded_SCRKD): 0.0117 mae || 0.8922 max-fm || 0.9146 S-measure.
+EORSSD (PSPNet_448to112_Cascaded_SCRKD): 0.0083 mae || 0.8523 max-fm || 0.8982 S-measure.
+
+
+
+#Response Table to56
+EORSSD (PSPNet_56x56): 0.0169 mae || 0.6865 max-fm || 0.8029 S-measure.
+
+EORSSD (PSPNet_KD_112to56): 0.0155 mae || 0.7204 max-fm || 0.8166 S-measure.
+EORSSD (PSPNet_KD_224to56): 0.0157 mae || 0.7097 max-fm || 0.8131 S-measure.
+EORSSD (PSPNet_KD_448to56): 0.0164 mae || 0.7023 max-fm || 0.8076 S-measure.
+
+EORSSD (PSPNet_FitNet_112to56): 0.0158 mae || 0.7153 max-fm || 0.8159 S-measure.
+EORSSD (PSPNet_FitNet_224to56): 0.0156 mae || 0.7097 max-fm || 0.8157 S-measure.
+EORSSD (PSPNet_FitNet_448to56): 0.0161 mae || 0.7123 max-fm || 0.8128 S-measure.
+
+EORSSD (PSPNet_AT_112to56): 0.0161 mae || 0.7181 max-fm || 0.8183 S-measure.
+EORSSD (PSPNet_AT_224to56): 0.0155 mae || 0.7131 max-fm || 0.8157 S-measure.
+EORSSD (PSPNet_AT_448to56): 0.0162 mae || 0.7126 max-fm || 0.8146 S-measure.
+
+EORSSD (PSPNet_IFVD_112to56): 0.0164 mae || 0.7136 max-fm || 0.8121 S-measure.
+EORSSD (PSPNet_IFVD_224to56): 0.0164 mae || 0.7030 max-fm || 0.8081 S-measure.
+EORSSD (PSPNet_IFVD_448to56): 0.0163 mae || 0.6926 max-fm || 0.8015 S-measure.
+
+EORSSD (PSPNet_CWD_112to56): 0.0157 mae || 0.7141 max-fm || 0.8180 S-measure.
+EORSSD (PSPNet_CWD_224to56): 0.0152 mae || 0.7127 max-fm || 0.8171 S-measure.
+EORSSD (PSPNet_CWD_448to56): 0.0164 mae || 0.7096 max-fm || 0.8133 S-measure.
+
+EORSSD (PSPNet_ReviewKD_112to56): 0.0158 mae || 0.7253 max-fm || 0.8218 S-measure.
+EORSSD (PSPNet_ReviewKD_224to56): 0.0153 mae || 0.7240 max-fm || 0.8215 S-measure.
+EORSSD (PSPNet_ReviewKD_448to56): 0.0154 mae || 0.7169 max-fm || 0.8199 S-measure.
+
+EORSSD (PSPNet_SKD_112to56): 0.0158 mae || 0.7161 max-fm || 0.8172 S-measure.
+EORSSD (PSPNet_SKD_224to56): 0.0158 mae || 0.7023 max-fm || 0.8098 S-measure.
+EORSSD (PSPNet_SKD_448to56): 0.0158 mae || 0.7131 max-fm || 0.8080 S-measure.
+
+EORSSD (PSPNet_SRD_112to56): 0.0156 mae || 0.7215 max-fm || 0.8181 S-measure.
+EORSSD (PSPNet_SRD_224to56): 0.0157 mae || 0.7078 max-fm || 0.8116 S-measure.
+EORSSD (PSPNet_SRD_448to56): 0.0157 mae || 0.7071 max-fm || 0.8095 S-measure.
+
+EORSSD (PSPNet_LogitStdKD_112to56): 0.0163 mae || 0.7176 max-fm || 0.8139 S-measure.
+EORSSD (PSPNet_LogitStdKD_224to56): 0.0168 mae || 0.6996 max-fm || 0.8050 S-measure.
+EORSSD (PSPNet_LogitStdKD_448to56): 0.0172 mae || 0.6840 max-fm || 0.7938 S-measure.
+
+EORSSD (PSPNet_STONet_112to56): 0.0157 mae || 0.7157 max-fm || 0.8161 S-measure.
+EORSSD (PSPNet_STONet_224to56): 0.0157 mae || 0.7221 max-fm || 0.8198 S-measure.
+EORSSD (PSPNet_STONet_448to56): 0.0158 mae || 0.7187 max-fm || 0.8193 S-measure.
+
+EORSSD (PSPNet_PD_112to56): 0.0151 mae || 0.7157 max-fm || 0.8147 S-measure.
+EORSSD (PSPNet_PD_224to56): 0.0160 mae || 0.7136 max-fm || 0.8158 S-measure.
+EORSSD (PSPNet_PD_448to56): 0.0161 mae || 0.7131 max-fm || 0.8111 S-measure.
+
+EORSSD (PSPNet_CMHRD_112to56): 0.0157 mae || 0.7268 max-fm || 0.8212 S-measure.
+EORSSD (PSPNet_CMHRD_224to56): 0.0162 mae || 0.7182 max-fm || 0.8148 S-measure.
+EORSSD (PSPNet_CMHRD_448to56): 0.0159 mae || 0.7093 max-fm || 0.8114 S-measure.
+
+EORSSD (ISAANet_56x56): 0.0188 mae || 0.7160 max-fm || 0.8222 S-measure.
+EORSSD (SOLNet_56x56): 0.0191 mae || 0.7309 max-fm || 0.8210 S-measure.
+
+EORSSD (PSPNet_SCRKD5_112to56): 0.0148 mae || 0.7450 max-fm || 0.8309 S-measure.
+EORSSD (PSPNet_SCRKD5_224to56): 0.0145 mae || 0.7400 max-fm || 0.8284 S-measure.
+EORSSD (PSPNet_SCRKD5_448to56): 0.0146 mae || 0.7320 max-fm || 0.8265 S-measure.
